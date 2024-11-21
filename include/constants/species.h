@@ -27,6 +27,7 @@
 #define SPECIES_EKANS                                   23
 #define SPECIES_ARBOK                                   24
 #define SPECIES_PIKACHU                                 25
+#define SPECIES_DISOBEDIENT_PIKACHU                     SPECIES_PIKACHU
 #define SPECIES_RAICHU                                  26
 #define SPECIES_SANDSHREW                               27
 #define SPECIES_SANDSLASH                               28
@@ -1716,7 +1717,7 @@
 #define SPECIES_PIKACHU_GMAX                            SPECIES_PIKACHU_GIGANTAMAX
 #define SPECIES_PIKACHU_HOENN                           SPECIES_PIKACHU_HOENN_CAP
 #define SPECIES_PIKACHU_KALOS                           SPECIES_PIKACHU_KALOS_CAP
-#define SPECIES_PIKACHU_ORIGINAL                        SPECIES_PIKACHU_ORIGINAL_CAP
+#define SPECIES_PIKACHU_ORIGINAL                        SPECIES_PIKACHU_ORIGINAL_CAP                     
 //#define SPECIES_PIKACHU_PARTNER                       SPECIES_PIKACHU_PARTNER_CAP
 #define SPECIES_PIKACHU_PHD                             SPECIES_PIKACHU_PH_D
 #define SPECIES_PIKACHU_SINNOH                          SPECIES_PIKACHU_SINNOH_CAP
