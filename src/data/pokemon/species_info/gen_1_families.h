@@ -2426,7 +2426,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_PIKACHU}),
     },
 
-    [SPECIES_PICHU_SPIKY_EARED] =
+   /* [SPECIES_PICHU_SPIKY_EARED] =
     {
         .baseHP        = 20,
         .baseAttack    = 40,
@@ -2484,6 +2484,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPichuEggMoveLearnset,
         .formSpeciesIdTable = sPichuFormSpeciesIdTable,
     },
+    */
 #endif //P_GEN_2_CROSS_EVOS
 
 #if P_UPDATED_EXP_YIELDS >= GEN_6

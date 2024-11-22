@@ -1051,8 +1051,7 @@
 #define SPECIES_DARMANITAN_GALARIAN                     SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE
 #define SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE       990
 #define SPECIES_YAMASK_GALARIAN                         991
-#define SPECIES_STUNFISK_GALARIAN                       992
-#define SPECIES_DISOBEDIENT_PIKACHU                     993
+#define SPECIES_STUNFISK_GALARIAN                       992                  
 
 //Hisuian Forms
 #define SPECIES_GROWLITHE_HISUIAN                       993
@@ -1087,7 +1086,7 @@
 #define SPECIES_PIKACHU_ALOLA_CAP                       1020
 #define SPECIES_PIKACHU_PARTNER_CAP                     1021
 #define SPECIES_PIKACHU_WORLD_CAP                       1022
-#define SPECIES_PICHU_SPIKY_EARED                       1023
+#define SPECIES_DISOBEDIENT_PIKACHU                     1023
 #define SPECIES_UNOWN_B                                 1024
 #define SPECIES_UNOWN_C                                 1025
 #define SPECIES_UNOWN_D                                 1026

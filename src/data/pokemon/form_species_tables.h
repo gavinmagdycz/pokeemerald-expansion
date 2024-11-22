@@ -88,13 +88,13 @@ static const u16 sRaticateFormSpeciesIdTable[] = {
 #endif //P_FAMILY_RATTATA
 
 #if P_FAMILY_PIKACHU
-#if P_GEN_2_CROSS_EVOS
-static const u16 sPichuFormSpeciesIdTable[] = {
-    SPECIES_PICHU,
-    SPECIES_PICHU_SPIKY_EARED,
-    FORM_SPECIES_END,
-};
-#endif //P_GEN_2_CROSS_EVOS
+//#if P_GEN_2_CROSS_EVOS
+//static const u16 sPichuFormSpeciesIdTable[] = {
+//    SPECIES_PICHU,
+//   SPECIES_PICHU_SPIKY_EARED,
+//    FORM_SPECIES_END,
+//};
+//#endif //P_GEN_2_CROSS_EVOS
 
 static const u16 sPikachuFormSpeciesIdTable[] = {
     SPECIES_PIKACHU,

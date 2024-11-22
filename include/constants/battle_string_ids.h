@@ -712,8 +712,11 @@
 #define STRINGID_FOGLIFTED                            710
 #define STRINGID_PKMNMADESHELLGLEAM                   711
 #define STRINGID_FICKLEBEAMDOUBLED                    712
+#define STRINGID_PKCHUIGNORE                          713
+#define STRINGID_PKCHUTAUNT                           714
+#define STRINGID_PKCHUATTACK                          715
 
-#define BATTLESTRINGS_COUNT                           713
+#define BATTLESTRINGS_COUNT                           716
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
@@ -884,6 +887,13 @@
 // For randomly selecting a disobey string
 // Skips the one used for Battle Palace
 #define NUM_LOAF_STRINGS 4
+
+//gPikachuDisobeyStringIds
+#define B_MSG_PKCHU_IGNORE      0
+#define B_MSG_PKCHU_TAUNT       1
+#define B_MSG_PKCHU_ATTACK      2
+
+#define NUM_PKCHU_IGNORE_STRINGS 3
 
 // gSafariGetNearStringIds
 #define B_MSG_CREPT_CLOSER    0

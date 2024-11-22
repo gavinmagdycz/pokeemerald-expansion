@@ -1319,6 +1319,11 @@ static void Cmd_attackcanceler(void)
             gHitMarker |= HITMARKER_DISOBEDIENT_MOVE;
             gHitMarker |= HITMARKER_OBEYS;
             return;
+        case DISOBEYS_PIKACHU:
+        gBattleCommunication[MULTISTRING_CHOOSER] = MOD(Random(), NUM_PKCHU_IGNORE_STRINGS);
+        gBattlescriptCurrInstr = BattleScript_MoveUsedLoafingAround;
+        gMoveResultFlags |= MOVE_RESULT_MISSED;
+        return;
         }
     }
 

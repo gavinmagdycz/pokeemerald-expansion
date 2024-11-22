@@ -1,0 +1,110 @@
+mapscripts NewMap2_MapScripts {}
+
+script bulbasaur_pokeball {
+    lock
+    showmonpic(SPECIES_BULBASAUR, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took bulbasaur!"))
+    release
+    end
+}
+
+script charmander_pokeball {
+    lock
+    showmonpic(SPECIES_CHARMANDER, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took charmander!"))
+    release
+    end
+}
+
+script squirtle_pokeball {
+    lock
+    showmonpic(SPECIES_SQUIRTLE, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took squirtle!"))
+    release
+    end
+}
+
+script abra_pokeball {
+    lock
+    showmonpic(SPECIES_ABRA, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took abra!"))
+    release
+    end
+}
+
+script pidgey_pokeball {
+    lock
+    showmonpic(SPECIES_PIDGEY, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took pidgey!"))
+    release
+    end
+}
+
+script ekans_pokeball {
+    lock
+    showmonpic(SPECIES_EKANS, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took ekans!"))
+    release
+    end
+}
+
+script eevee_pokeball {
+    lock
+    showmonpic(SPECIES_EEVEE, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took eevee!"))
+    release
+    end
+}
+
+script caterpie_pokeball {
+    lock
+    showmonpic(SPECIES_CATERPIE, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took caterpie!"))
+    release
+    end
+}
+
+script rattatta_pokeball {
+    lock
+    showmonpic(SPECIES_RATTATTA, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took rattatta!"))
+    release
+    end
+}
+
+script sandshrew_pokeball {
+    lock
+    showmonpic(SPECIES_SANDSHREW, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took sandshrew!"))
+    release
+    end
+}
+script machop_pokeball {
+    lock
+    showmonpic(SPECIES_MACHOP, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took machop!"))
+    release
+    end
+}

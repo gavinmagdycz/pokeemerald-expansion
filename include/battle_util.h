@@ -113,6 +113,7 @@ enum {
     DISOBEYS_FALL_ASLEEP,
     DISOBEYS_WHILE_ASLEEP,
     DISOBEYS_RANDOM_MOVE,
+    DISOBEYS_PIKACHU,
 };
 
 extern const struct TypePower gNaturalGiftTable[];
