@@ -233,7 +233,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
         .formChangeTable = sPikachuFormChangeTable,
-        .evolutions = EVOLUTION{EVO_FRIENDSHIP, 100, SPECIES_PIKACHU_PARTNER},
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 100, SPECIES_PIKACHU_PARTNER}),
         .allPerfectIVs = TRUE,
     },
     /*

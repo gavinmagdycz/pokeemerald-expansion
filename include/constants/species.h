@@ -27,7 +27,6 @@
 #define SPECIES_EKANS                                   23
 #define SPECIES_ARBOK                                   24
 #define SPECIES_PIKACHU                                 25
-#define SPECIES_DISOBEDIENT_PIKACHU                     SPECIES_PIKACHU
 #define SPECIES_RAICHU                                  26
 #define SPECIES_SANDSHREW                               27
 #define SPECIES_SANDSLASH                               28
@@ -1053,6 +1052,7 @@
 #define SPECIES_DARMANITAN_GALARIAN_STANDARD_MODE       990
 #define SPECIES_YAMASK_GALARIAN                         991
 #define SPECIES_STUNFISK_GALARIAN                       992
+#define SPECIES_DISOBEDIENT_PIKACHU                     993
 
 //Hisuian Forms
 #define SPECIES_GROWLITHE_HISUIAN                       993
