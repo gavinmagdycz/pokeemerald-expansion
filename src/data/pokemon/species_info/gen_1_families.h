@@ -3366,12 +3366,12 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_PIKACHU_PARTNER] =
     {
-        .baseHP        = 45,
+        .baseHP        = 60,
         .baseAttack    = 80,
-        .baseDefense   = 50,
-        .baseSpeed     = 120,
-        .baseSpAttack  = 75,
-        .baseSpDefense = 60,
+        .baseDefense   = 65,
+        .baseSpeed     = 125,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_ELECTRIC),
         .catchRate = 190,
         .expYield = PIKACHU_EXP_YIELD,

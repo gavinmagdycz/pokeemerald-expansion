@@ -169,12 +169,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     /* You may add any custom species below this point based on the following structure: */
 [SPECIES_DISOBEDIENT_PIKACHU] =
     {
-        .baseHP        = 45,
-        .baseAttack    = 65,
-        .baseDefense   = P_UPDATED_STATS >= GEN_6 ? 50 : 30,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 60,
-        .baseSpDefense = P_UPDATED_STATS >= GEN_6 ? 60 : 40,
+        .baseHP        = 60,
+        .baseAttack    = 80,
+        .baseDefense   = 65,
+        .baseSpeed     = 125,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_ELECTRIC),
         .catchRate = 190,
         .expYield = PIKACHU_EXP_YIELD,
@@ -233,10 +233,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
         .formChangeTable = sPikachuFormChangeTable,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                {EVO_NONE, 0, SPECIES_RAICHU_ALOLAN}),
+        .evolutions = EVOLUTION{EVO_FRIENDSHIP, 100, SPECIES_PIKACHU_PARTNER},
         .allPerfectIVs = TRUE,
-    },
     },
     /*
     [SPECIES_NONE] =
