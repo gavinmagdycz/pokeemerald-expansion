@@ -4440,6 +4440,46 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/NewMap3/border.bin",
       "blockdata_filepath": "data/layouts/NewMap3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 20,
+      "height": 68,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_FOREST",
+      "name": "ViridianForest_Layout",
+      "width": 20,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/ViridianForest/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY",
+      "name": "ViridianCity_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/ViridianCity/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_POKE_CENTER",
+      "name": "ViridianPokeCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/ViridianPokeCenter/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianPokeCenter/map.bin"
     }
   ]
 }

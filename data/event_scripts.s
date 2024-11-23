@@ -1080,3 +1080,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/NewMap2/scripts.inc"
 
 	.include "data/maps/NewMap3/scripts.inc"
+
+	.include "data/maps/Route1/scripts.inc"
+
+	.include "data/maps/ViridianForest/scripts.inc"
+
+	.include "data/maps/ViridianCity/scripts.inc"
+
+	.include "data/maps/ViridianPokeCenter/scripts.inc"

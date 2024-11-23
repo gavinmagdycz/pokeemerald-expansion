@@ -95,7 +95,11 @@
     "Underwater_Route125",
     "NewMap1",
     "NewMap2",
-    "NewMap3"
+    "NewMap3",
+    "Route1",
+    "ViridianForest",
+    "ViridianCity",
+    "ViridianPokeCenter"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

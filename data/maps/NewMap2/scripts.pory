@@ -1,11 +1,51 @@
-mapscripts NewMap2_MapScripts {}
+mapscripts NewMap2_MapScripts {
+    
+}
+
+script Oak_Get_Pikachu{
+    lockall
+    if(var(VAR_TEMP_0) == 12){
+        msgbox(format("Since you slept in so late, all the pokemon have been taken"))
+        msgbox(format("However, it seems like I do have one last pokemon. Its a bit feisty, but its all I have left"))
+        msgbox("Accept the pokemon?")
+        yesnobox(-1,-1)
+        while(var(VAR_RESULT) == NO){
+            msgbox(format("If you don't take this pokemon, you'll never be a pokemon master!"))
+            msgbox("Accept the pokemon?")
+            yesnobox(-1,-1)
+        }
+        givemon(DISOBEDIENT_PIKACHU, 5,,,,,,,,,,,,,,,,,,,,,,TRUE)
+        showmonpic(SPECIES_DISOBEDIENT_PIKACHU, 10,3)
+        delay(50)
+        hidemonpic
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox(format("You got a Disobedient Pikachu!"))
+        waitfanfare
+        msgbox(format("Oh and you will need this as well for your pokemon journey"))
+        FLAG_SYS_POKEDEX_GET
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("You got a Pokedex!")
+        waitfanfare
+        msgbox(format("If your goal is to challenge the pokemon league, you'll have to beat all 8 gym leaders. The first is in Pewter city, north of here."))
+        msgbox("Good luck on your pokemon journey!")
+    }
+    else{
+        msgbox("You should look around, maybe there's a pokemon left for you!")
+    }
+    releaseall
+    end
+}
 
 script bulbasaur_pokeball {
     lock
     showmonpic(SPECIES_BULBASAUR, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took bulbasaur!"))
+    if(!flag(FLAG_TEMP_1)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_1)
+    }
     release
     end
 }
@@ -13,9 +53,13 @@ script bulbasaur_pokeball {
 script charmander_pokeball {
     lock
     showmonpic(SPECIES_CHARMANDER, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took charmander!"))
+    if(!flag(FLAG_TEMP_2)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_2)
+    }
     release
     end
 }
@@ -23,9 +67,13 @@ script charmander_pokeball {
 script squirtle_pokeball {
     lock
     showmonpic(SPECIES_SQUIRTLE, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took squirtle!"))
+    if(!flag(FLAG_TEMP_3)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_3)
+    }
     release
     end
 }
@@ -33,9 +81,13 @@ script squirtle_pokeball {
 script abra_pokeball {
     lock
     showmonpic(SPECIES_ABRA, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took abra!"))
+    if(!flag(FLAG_TEMP_4)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_4)
+    }
     release
     end
 }
@@ -43,9 +95,13 @@ script abra_pokeball {
 script pidgey_pokeball {
     lock
     showmonpic(SPECIES_PIDGEY, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took pidgey!"))
+    if(!flag(FLAG_TEMP_5)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_5)
+    }
     release
     end
 }
@@ -53,9 +109,13 @@ script pidgey_pokeball {
 script ekans_pokeball {
     lock
     showmonpic(SPECIES_EKANS, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took ekans!"))
+    if(!flag(FLAG_TEMP_6)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_6)
+    }
     release
     end
 }
@@ -63,9 +123,13 @@ script ekans_pokeball {
 script eevee_pokeball {
     lock
     showmonpic(SPECIES_EEVEE, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took eevee!"))
+    if(!flag(FLAG_TEMP_7)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_7)
+    }
     release
     end
 }
@@ -73,9 +137,13 @@ script eevee_pokeball {
 script caterpie_pokeball {
     lock
     showmonpic(SPECIES_CATERPIE, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took caterpie!"))
+    if(!flag(FLAG_TEMP_8)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_8)
+    }
     release
     end
 }
@@ -83,9 +151,13 @@ script caterpie_pokeball {
 script rattatta_pokeball {
     lock
     showmonpic(SPECIES_RATTATA, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took ratatta!"))
+    if(!flag(FLAG_TEMP_9)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_9)
+    }
     release
     end
 }
@@ -93,27 +165,40 @@ script rattatta_pokeball {
 script sandshrew_pokeball {
     lock
     showmonpic(SPECIES_SANDSHREW, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took sandshrew!"))
+    if(!flag(FLAG_TEMP_10)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_10)
+    }
     release
     end
 }
 script machop_pokeball {
     lock
     showmonpic(SPECIES_MACHOP, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took machop!"))
+    if(!flag(FLAG_TEMP_11)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_11)
+    }
     release
     end
 }
 script growlithe_pokeball {
     lock
     showmonpic(SPECIES_GROWLITHE, 10, 3)
-    delay(3)
+    delay(30)
     hidemonpic
     msgbox(format("Oh no! Someone already took growlithe!"))
+    if(!flag(FLAG_TEMP_12)){
+    addvar(VAR_TEMP_0, 1)
+    setflag(FLAG_TEMP_12)
+    }
+    removeobject(3)
     release
     end
 }

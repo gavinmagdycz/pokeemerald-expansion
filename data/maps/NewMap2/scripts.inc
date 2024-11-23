@@ -134,7 +134,7 @@ rattatta_pokeball::
 # 84 "data/maps/NewMap2/scripts.pory"
 	lock
 # 85 "data/maps/NewMap2/scripts.pory"
-	showmonpic SPECIES_RATATTA, 10, 3
+	showmonpic SPECIES_RATTATA, 10, 3
 # 86 "data/maps/NewMap2/scripts.pory"
 	delay 3
 # 87 "data/maps/NewMap2/scripts.pory"

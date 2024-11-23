@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Oak_Get_Pikachu",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "rattatta_pokeball",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "growlithe_pokeball",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "sandshrew_pokeball",
       "flag": "0"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "machop_pokeball",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "eevee_pokeball",
       "flag": "0"
     },
     {
@@ -102,7 +102,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "caterpie_pokeball",
       "flag": "0"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "bulbasaur_pokeball",
       "flag": "0"
     },
     {
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "charmander_pokeball",
       "flag": "0"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "squirtle_pokeball",
       "flag": "0"
     },
     {
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "abra_pokeball",
       "flag": "0"
     },
     {
@@ -167,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "pidgey_pokeball",
       "flag": "0"
     },
     {
@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "ekans_pokeball",
       "flag": "0"
     }
   ],
@@ -204,113 +204,6 @@
 
   ],
   "bg_events": [
-    {
-      "type": "sign",
-      "x": 2,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "bulbasaur_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 14,
-      "y": 6,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "rattatta_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 15,
-      "y": 6,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "sandshrew_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 16,
-      "y": 6,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "machop_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 14,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "growlithe_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 15,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "eevee_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 16,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "caterpie_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 3,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "charmander_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 4,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "squirtle_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 5,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "abra_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 6,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "pidgey_pokeball",
-      "Seen": false
-    },
-    {
-      "type": "sign",
-      "x": 7,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "ekans_pokeball",
-      "Seen": false
-    }
+
   ]
 }
