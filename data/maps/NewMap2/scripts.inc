@@ -134,7 +134,7 @@ rattatta_pokeball::
 # 84 "data/maps/NewMap2/scripts.pory"
 	lock
 # 85 "data/maps/NewMap2/scripts.pory"
-	showmonpic SPECIES_RATTATTA, 10, 3
+	showmonpic SPECIES_RATATTA, 10, 3
 # 86 "data/maps/NewMap2/scripts.pory"
 	delay 3
 # 87 "data/maps/NewMap2/scripts.pory"
@@ -178,6 +178,22 @@ machop_pokeball::
 	end
 
 
+growlithe_pokeball::
+# 112 "data/maps/NewMap2/scripts.pory"
+	lock
+# 113 "data/maps/NewMap2/scripts.pory"
+	showmonpic SPECIES_GROWLITHE, 10, 3
+# 114 "data/maps/NewMap2/scripts.pory"
+	delay 3
+# 115 "data/maps/NewMap2/scripts.pory"
+	hidemonpic
+# 116 "data/maps/NewMap2/scripts.pory"
+	msgbox growlithe_pokeball_Text_0
+# 117 "data/maps/NewMap2/scripts.pory"
+	release
+	end
+
+
 bulbasaur_pokeball_Text_0:
 # 8 "data/maps/NewMap2/scripts.pory"
 	.string "Oh no! Someone already took bulbasaur!$"
@@ -213,7 +229,7 @@ caterpie_pokeball_Text_0:
 
 rattatta_pokeball_Text_0:
 # 88 "data/maps/NewMap2/scripts.pory"
-	.string "Oh no! Someone already took rattatta!$"
+	.string "Oh no! Someone already took ratatta!$"
 
 sandshrew_pokeball_Text_0:
 # 98 "data/maps/NewMap2/scripts.pory"
@@ -222,3 +238,7 @@ sandshrew_pokeball_Text_0:
 machop_pokeball_Text_0:
 # 107 "data/maps/NewMap2/scripts.pory"
 	.string "Oh no! Someone already took machop!$"
+
+growlithe_pokeball_Text_0:
+# 116 "data/maps/NewMap2/scripts.pory"
+	.string "Oh no! Someone already took growlithe!$"

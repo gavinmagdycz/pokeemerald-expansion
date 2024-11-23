@@ -82,7 +82,7 @@ script caterpie_pokeball {
 
 script rattatta_pokeball {
     lock
-    showmonpic(SPECIES_RATATTA, 10, 3)
+    showmonpic(SPECIES_RATTATA, 10, 3)
     delay(3)
     hidemonpic
     msgbox(format("Oh no! Someone already took ratatta!"))
