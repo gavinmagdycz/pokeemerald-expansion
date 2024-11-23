@@ -82,10 +82,10 @@ script caterpie_pokeball {
 
 script rattatta_pokeball {
     lock
-    showmonpic(SPECIES_RATTATTA, 10, 3)
+    showmonpic(SPECIES_RATATTA, 10, 3)
     delay(3)
     hidemonpic
-    msgbox(format("Oh no! Someone already took rattatta!"))
+    msgbox(format("Oh no! Someone already took ratatta!"))
     release
     end
 }
@@ -105,6 +105,15 @@ script machop_pokeball {
     delay(3)
     hidemonpic
     msgbox(format("Oh no! Someone already took machop!"))
+    release
+    end
+}
+script growlithe_pokeball {
+    lock
+    showmonpic(SPECIES_GROWLITHE, 10, 3)
+    delay(3)
+    hidemonpic
+    msgbox(format("Oh no! Someone already took growlithe!"))
     release
     end
 }
