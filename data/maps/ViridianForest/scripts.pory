@@ -5,6 +5,7 @@ mapscripts ViridianForest_MapScripts {
         removeobject(3)
         removeobject(4)
         setflag(FLAG_UNUSED_0x021)
+        end
     }
 
 }
@@ -20,11 +21,11 @@ script Spearow_Attack{
     applymovement(3, walk_down)
     applymovement(4, walk_up)
     waitmovement(1)
-    waitmovement(3)
-    waitmovement(2)
-    waitmovement(4)
     msgbox(format("Spearow attacked!"))
     msgbox(format("Pikachu tried to fight back but was overwhelmed!"))
     msgbox(format("Pikachu Fainted!"))
     msgbox(format("You rushed to the nearest Pokemon Center!"))
+    warp(MAP_VIRIDIAN_POKE_CENTER, -1, 8, 4)
+    release
+    end
 }

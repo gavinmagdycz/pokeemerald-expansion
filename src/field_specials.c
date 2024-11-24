@@ -103,6 +103,7 @@ void TryLoseFansFromPlayTime(void);
 void SetPlayerGotFirstFans(void);
 u16 GetNumFansOfPlayerInTrainerFanClub(void);
 
+static void Set_Friendship(void);
 static void RecordCyclingRoadResults(u32, u8);
 static void LoadLinkPartnerObjectEventSpritePalette(u16, u8, u8);
 static void Task_PetalburgGymSlideOpenRoomDoors(u8);
@@ -4275,4 +4276,9 @@ void PreparePartyForSkyBattle(void)
     }
     VarSet(B_VAR_SKY_BATTLE,participatingPokemonSlot);
     CompactPartySlots();
+}
+
+void Set_Friendship(void){
+    u32 maxFriend = 255;
+    SetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_FRIENDSHIP, &maxFriend);
 }

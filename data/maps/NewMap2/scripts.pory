@@ -22,7 +22,7 @@ script Oak_Get_Pikachu{
         msgbox(format("You got a Disobedient Pikachu!"))
         waitfanfare
         msgbox(format("Oh and you will need this as well for your pokemon journey"))
-        FLAG_SYS_POKEDEX_GET
+        setflag(FLAG_SYS_POKEDEX_GET)
         playfanfare(MUS_OBTAIN_ITEM)
         msgbox("You got a Pokedex!")
         waitfanfare

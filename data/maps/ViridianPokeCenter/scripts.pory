@@ -1,7 +1,19 @@
 mapscripts ViridianPokeCenter_MapScripts {
     ViridianPokeCenter_OnLoad{
         if(var(VAR_PIKACHU_STATE) == 0){
-            
+            lock
+            msgbox(format("Your Pikachu is in bad shape! How dare you let it get like this!"))
+            msgbox(format("In any case, it seems like it will make a full recovery."))
+            fadescreen(FADE_TO_BLACK)
+            delay(120)
+            fadescreen(FADE_FROM_BLACK)
+            msgbox(format("Your Pikachu has made a full recovery!"))
+            playmoncry(SPECIES_PIKACHU, CRY_MODE_NORMAL)
+            waitmoncry
+            special(Set_Friendship)
+            release
+            end
+           
         }
         
     }
